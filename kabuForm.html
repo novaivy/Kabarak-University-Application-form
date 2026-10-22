@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kabarak University Admission form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style type="text/css">
+
+html{
+margin: 0;
+padding: 0;
+}
+
+body{
+height: 100%;
+width: 100%;
+
+
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin: 16px;
+}
+
+.container form{
+width: 500px;
+padding: 10px;
+border: 1px solid black;
+border-radius: 30px;
+}
+label{
+margin-bottom: 10px;
+color:red;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+h3{
+background: gold;
+color: black;
+}
+
+.input-text{
+width: 80%;
+margin-top: 5px;
+margin-botton: 5px;
+}
+.input-text input{
+width: 100%;
+margin-top: 5px;
+border-radius: 5px;
+padding: 5px;
+}
+</style>
+</head>
+<body>
+
+ <h3>APPLICANT'S DETAILS </h3>
+<div class="container>
+<form>
+<div class="input-text">
+<label for="fullname"> Full Name </label> <br>
+
+<input type="text" id="fullname" name="fullname" placeholder="Ivy"/> <br>
+</div>
+<label for="gender">Gender</label> 
+
+<input type="radio" name="gender" id="male" value="Male"/>Male
+<input type="radio" name="gender" id="female" value="Female"/>Female <br>
+
+<label for="marital-status">marital status</label>
+<input type="radio" name="marital-status" id="married" value="married"/>Married
+<input type="radio" name="marital-status" id="single" value="single"/>single <br>
+
+<div class="input-text">
+<label for="DOB">DOB</label>
+<input type="date" name="DOB" id="DOB"/><br>
+</div>
+
+<div class="input-text">
+<label for="nationality">nationality</label><br>
+<input type="text" name="nationality" id="nationality" placeholder="kenyan"/><br> 
+</div>
+<label for="documement_id"> Choose Document</label><br>
+<select name="document_id">
+<option> National ID </option>
+<option> Birth Certificate </option>
+<option> Passport </option>
+</select>
+
+<input type="text" name="id-no" id="id-no" placeholder="000000"/><br>
+
+<label for="county">county</label> <br>
+<select name="county" id="county">
+<option>N/A</option>
+<option>NAIROBI</option>
+<option>MOMBASA</option>
+<option>NAKURU</option>
+<option>KISUMU</option>
+<option>UASIN GISHU</option>
+</select><br>
+
+
+<label for="sub-county">sub-county</label><br>
+<select name="sub-county" id="sub-county">
+<option>N/A</option>
+<option>embakasi east</option>
+<option>kibera</option>
+<option>makadara</option>
+<option>Kapseret</option>
+<option>nyahera</option>
+</select><br>
+
+<div class="input-text">
+	<label for="town">Town</label><br>
+	<input type="text" name="town" id="town"/>
+</div>
+
+<div class="input-text">
+<label for="mobile-no">mobile no</label><br>
+<input type="tel" name="mobile no" id="mobile no"/><br>
+</div>
+
+<div class="input-text">
+<label for="email">Email</label><br>
+<input type="email" name="email" id="email" placeholder="example@email.com"/><br>
+</div>
+<div class="input-text">
+<label for="physical-address">Physical Address</label><br>
+<input type="text" name="physical-address" id="physical-address" placeholder="P.O BOX"/><br>
+</div>
+<div class="input-text">
+<label for="code">CODE</label><br>
+<input type="text" name="code" id="code" placeholder="0100"/><br>
+</div>
+
+<h3>PARENT'S DETAILS</h3>
+<input type="radio"name="parent's details"id="parent's details"value="parent's details"/>parent's details<br>
+<input type="radio"name="guardian's details"id="guardian's details"value="guardian's details"/>guardian's details<br>
+
+
+</form>
+</div>
+
+
+
+
+
+
+</body>
+</html>
